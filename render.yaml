@@ -1,8 +1,0 @@
-
-services:
-  - type: web
-    name: flex-bank-api
-    env: node
-    plan: free
-    buildCommand: npm install
-    startCommand: npm start
