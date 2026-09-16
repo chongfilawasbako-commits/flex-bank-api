@@ -32,5 +32,5 @@ app.post('/api/fund', (req,res)=>{
   res.json({message:`Funded ₦${amount}`, balance});
 });
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, ()=>console.log(`Flex Bank backend running on port ${PORT}`));
+const PORT = process.env.PORT || 10000;
+app.listen(PORT, '0.0.0.0', ()=>console.log(`Flex Bank backend running on port ${PORT}`));
